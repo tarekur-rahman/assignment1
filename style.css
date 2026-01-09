@@ -113,6 +113,9 @@
 .banner-btn #btn i{
     margin-right: 10px;
 }
+.card-section{
+    background-color: #FBFBFB;
+}
 .card-heading{
     text-align: center;
 }
@@ -137,7 +140,7 @@
 }
 .card-item .card{
     padding: 32px;
-  box-shadow: 0px 0px 8px 0px #0000000F;
+  box-shadow: 0px 0px 8px 0px #0000000f;
   text-align: center;
   border-radius: 8px;
 }
@@ -164,4 +167,49 @@
     font-weight: 400;
     color:#627382;
 
+}
+.flex-content{
+    display:flex;
+    gap: 30px;
+    align-items: center;
+}
+.flex-content .image img{
+    border-radius: 12px;
+}
+.flex-content .content h4{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #469165;
+    margin-bottom: 20px;
+}
+.flex-content .content h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+    
+}
+
+.flex-content .content .ppp{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color:#627382;
+    margin-bottom: 25px;
+    width: 510px;
+
+}
+.point p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #001931;
+}
+.point p *{
+    margin-bottom: 15px;
+}
+.point i{
+    color: #30B868;
 }

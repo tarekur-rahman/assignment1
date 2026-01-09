@@ -28,7 +28,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 18px 0;
+    padding: 18px 0 10px 0;
 }
 .navbar .nav-menu{
     display: flex;
@@ -40,8 +40,11 @@
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
-    color: #000000;
+    color: #0c0c0c;
 
+}
+.nav-menu a:hover{
+    color: #54a375;
 }
 
 .hero-banner{
@@ -54,6 +57,9 @@
     justify-items: center;
     
 }
+.banner span{
+    color: #469165;
+}
 .badg-div{
 
     justify-items: center;
@@ -61,23 +67,23 @@
 }
 .banner .badg-div .badg{
 
-    /* width: 300px; */
     color: #469165;
     justify-items: center;
     background: #ffffff;
-    padding: 7px 18px;
+    padding: 7px 19px;
     border-radius: 20px;
     font-size: 16px;
     
 }
 
 .badg-div .badg span{
-    width: 3px;
-    height: 3px;
-    background-color: #22c55e;
-    border-radius: 50%;
-    box-shadow: 0 0 0 6px #bbf7d0;
-    padding-right: 2px;
+    width: 6px;
+    height: 6px;
+    /* background-color: #469165; */
+    color: #469165;
+    border-radius: 100%;
+    box-shadow: 0 0 0 6px #abf9c8;
+    margin-right: 13px;
     
 }
 
@@ -108,6 +114,11 @@
     border: 1px solid white;
     border-radius: 4px;
     margin-left: 15px;
+    cursor: pointer;
+
+}
+.banner-btn #btn:hover{
+    background-color: #507660;
 
 }
 .banner-btn #btn i{
@@ -123,7 +134,7 @@
     font-size: 48px;
     font-weight: 700;
     color: #001931;
-    margin-top: 100px;
+    padding-top: 100px;
     margin-bottom: 25px;
 }
 .card-heading p{
@@ -172,6 +183,7 @@
     display:flex;
     gap: 30px;
     align-items: center;
+    margin-bottom: 85px;
 }
 .flex-content .image img{
     border-radius: 12px;
@@ -212,4 +224,79 @@
 }
 .point i{
     color: #30B868;
+}
+.Ready-to-think-section{
+  
+    text-align: center;
+    padding: 100px 120px;
+    background-color: #F7F6F2;
+}
+.Ready-to-think-section h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+   
+
+}
+.Ready-to-think-section P{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #627382;
+    margin: 30px 0;
+
+}
+.Ready-to-think-section button i{
+    margin-left: 8px;
+}
+footer{
+    background-color: #001931;
+    margin-top: 100px;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+    border-bottom: 1px solid rgb(193, 189, 189);
+}
+.social-section h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+}
+.social-icon{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+
+.social-icon a{
+    text-decoration: none;
+    width: 22px;
+    height: 22px;
+    background: #ffffff;
+    color: #000;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 900;
+    padding: 3px;
+}
+.social-icon a:hover{
+    color: #fefefe;
+    background-color: #001931;
+    transition: .5s;
+
+}
+
+.copywrite p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color:#fbfdff;
+    text-align: center;
+    padding: 20px 0;
 }

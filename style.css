@@ -10,6 +10,20 @@
     margin: 0 auto;
 
 }
+#same-btn{
+     background-color: #469165;
+    padding: 12px 16px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+#same-btn:hover{
+    background-color: #507660;
+
+}
 .header-container{
     display: flex;
     justify-content: space-between;
@@ -27,15 +41,9 @@
     font-weight: 500;
     text-decoration: none;
     color: #000000;
+
 }
-.btn button{
-    background-color: #469165;
-    padding: 12px 16px;
-    color: white;
-    font-size: 16px;
-    border: none;
-    border-radius: 4px;
-}
+
 .hero-banner{
     background-image: url(./assets/hero-bg.png);
     background-repeat: no-repeat;
@@ -88,16 +96,7 @@
     color: #ffffff;
     padding-bottom: 30px;
 }
-.banner-btn button{
 
-    background-color: #469165;
-    padding: 12px 16px;
-    color: white;
-    font-size: 16px;
-    border: none;
-    border-radius: 4px;
-
-}
 .banner-btn button *{
     margin-left: 5px;
 }
@@ -113,4 +112,56 @@
 }
 .banner-btn #btn i{
     margin-right: 10px;
+}
+.card-heading{
+    text-align: center;
+}
+.card-heading h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+.card-heading p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 50px;
+}
+.card-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 100px;
+}
+.card-item .card{
+    padding: 32px;
+  box-shadow: 0px 0px 8px 0px #0000000F;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.card-item .card img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #F95555;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.card-item .card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 15px;
+}
+.card-item .card p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color:#627382;
+
 }
